@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppings:wght@300;400;500;600;700;800;900&display=swap");
+
+header {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background: url('https://images.aeonmedia.co/images/afef287f-dd6f-4a6a-b8a6-4f0a09330657/sized-kendal-l4ikccachoc-unsplash.jpg?width=1080&quality=75&format=auto') no-repeat;
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+
+header  h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  font-size: 250%;
+  margin: 0;
+  flex-shrink: 0;
+}
+header a  {
+  text-decoration: none;
+}
+
+header nav {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 97%;
+  background-color: rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.search-container input[type="text"] {
+  font-family: 'Courier New', Courier, monospace;
+  flex-grow: 1;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+.search-container .search-button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #1668e4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.search-container .search-button:hover {
+  background-color: #0056b3;
+}
+
+.cart-link {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-size-adjust: 4;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.cart-link:hover {
+  color: #333;
+}
+
+.btnl {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.composant-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 15px 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #fafafa;
+  width: calc(33.333% - 20px);
+  max-width: 300px;
+}
+
+.composant-item h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin: 10px 0;
+  color: #333;
+}
+
+.composant-item h3 {
+  color: #333;
+}
+
+.composant-item img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.composant-item p {
+  color: #333;
+  margin: 10px 0;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #1668e4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.btna {
+  display: inline-block;
+  width: auto; 
+  padding: 10px;
+  margin: 10px 5px 10px 0;
+  background-color: #1668e4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.input {
+  width: 20%;
+  height: 30px;
+  margin: 5px 0; 
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+
+
+.btn:hover {
+  background-color: #555;
+}
+
+.btnl {
+  display: inline-block;
+  padding: 10px 20px; 
+  margin-left: 90%; 
+  background-color: #e0e0e0; 
+  color: #333; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  text-align: center; 
+  font-size: 16px; 
+  cursor: pointer; 
+}

@@ -1,0 +1,185 @@
+@import "compass/css3";
+@import "compass/reset";
+
+
+.container{
+    max-width: 600px;
+    
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+
+}
+.container  h1{
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        text-align: center;
+    }
+
+.form-group{
+    margin-bottom:30px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background: url('https://images.aeonmedia.co/images/afef287f-dd6f-4a6a-b8a6-4f0a09330657/sized-kendal-l4ikccachoc-unsplash.jpg?width=1080&quality=75&format=auto') no-repeat;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    position: relative;
+  
+    top: 0;
+    
+    nav{
+      position: absolute;
+      bottom: 0;
+      height: 60px;
+      line-height: 60px;
+      width: 100%;
+      background-color: rgba(0,0,0,.1);
+      a{
+        color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        line-height: 1;
+        text-decoration: none;
+        
+          }
+       
+      }
+    }
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+    .wrapper {
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .wrapper.hidden {
+        transform: translateX(-200px);
+    }
+
+    .wrapper.hidden .icon-only {
+        display: block;
+    }
+
+    .wrapper.hidden .full-text {
+        display: none;
+    }
+
+    .icon-only {
+        display: none;
+    }
+
+    .toggle-button {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1100;
+        background-color: #1668e4;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+        width: calc(100% - 250px);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
+    }
+
+    .content.full-width {
+        margin-left: 50px;
+        width: calc(100% - 50px);
+    }
+
+    .wrapper h1 {
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .wrapper .btn {
+        width: 100%;
+        height: 50px;
+        background: #fff;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper .btn i {
+        margin-right: 10px;
+    }
+
+    .wrapper .btnl {
+        width: 100%;
+        height: 50px;
+        background: #1668e4;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+    }
+    
+
+    .content h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .table-container {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .table {
+        width: 100%;
+        
+    }
+
+    .bottom-button {
+        text-align: center;
+        margin-top: 20px;
+    }

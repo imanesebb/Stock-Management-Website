@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppings:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images.aeonmedia.co/images/afef287f-dd6f-4a6a-b8a6-4f0a09330657/sized-kendal-l4ikccachoc-unsplash.jpg?width=1080&quality=75&format=auto') no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.wrapper{
+    width: 1000px;
+    height:550px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0 ,0 ,0, .2) ;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30 px 40px;
+}
+
+.wrapper h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    font-size: 250%;
+    margin: 0;
+    flex-shrink: 0;
+    top: 100%;
+  }
+  
+
+.wrapper .btn{
+    text-align: center;
+    width: 80%;
+    height: 60px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+.wrapper .btn :hover{
+    background-color: #555;
+}
