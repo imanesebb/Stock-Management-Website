@@ -1,3 +1,2 @@
-# site web de gestion de stock 
- ce site web  est dédié à manipuler   une base de donnée / stock d'un usine d'une partie admin  et passer les commandes d'une partie client 
- :)
+# Stock Management Website
+this website is dedicated to  manipulating  stocks  made using php, to help keep track of the data and the  e market in a more  user friendly environement 
